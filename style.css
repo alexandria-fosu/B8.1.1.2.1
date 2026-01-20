@@ -16,7 +16,6 @@ body {
   max-width: 650px;
   width: 100%;
   text-align: center;
-  position: relative;
 }
 h1 {
   color: #2c3e50;
@@ -34,7 +33,7 @@ h1 {
   margin: 20px 0;
   font-weight: bold;
   color: #2c3e50;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 .options {
   margin: 20px 0;
@@ -97,22 +96,4 @@ h1 {
 }
 #restart-btn:hover {
   background: #27ae60;
-}
-
-/* Mute Button */
-.mute-btn {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  background: #3498db;
-  color: white;
-  border: none;
-  padding: 6px 12px;
-  border-radius: 20px;
-  font-size: 0.9em;
-  cursor: pointer;
-  z-index: 10;
-}
-.mute-btn:hover {
-  background: #2980b9;
 }

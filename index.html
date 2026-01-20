@@ -3,42 +3,32 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Perfect Squares Quiz</title>
+  <title>Multiply & Divide by Powers of 10</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Background Music -->
+  <!-- 🔊 AUDIO ELEMENTS — ADD YOUR OWN FILES -->
   <audio id="bgMusic" loop preload="auto">
     <source src="asset/gaming-game-minecraft-background-music-387000.mp3" type="audio/mpeg">
   </audio>
-
-  <!-- Correct Sound -->
   <audio id="correctSound" preload="auto">
     <source src="asset/brass-fanfare-reverberated-146263.mp3" type="audio/mpeg">
   </audio>
-
-  <!-- Wrong Sound -->
   <audio id="wrongSound" preload="auto">
     <source src="asset/cartoon-fail-trumpet-278822.mp3" type="audio/mpeg">
   </audio>
 
   <div class="quiz-container">
-    <h1>Perfect Squares & Sets of Factors</h1>
-    <p>B8.1.1.2.1. Use the concept of sets to identify perfect squares and determine the square roots. Use the knowledge on sets and sets of factors of numbers to solve problems</p>
-    <div id="score-display">Score: 0 / 10</div>
-    
-    <!-- Mute Toggle -->
-    <button id="mute-btn" class="mute-btn">🔊 Mute Music</button>
+    <h1>Multiply & Divide by Powers of 10</h1>
+    <div id="score-display">Score: 0 / 8</div>
 
-    <!-- Question Screen -->
     <div id="question-screen">
       <div class="question-text" id="question-text"></div>
       <div class="options" id="options"></div>
       <div class="feedback" id="feedback"></div>
     </div>
 
-    <!-- Final Screen -->
     <div id="final-screen">
       <div id="final-score"></div>
       <div id="message"></div>
