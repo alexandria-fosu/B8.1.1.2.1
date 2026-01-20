@@ -1,0 +1,118 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.quiz-container {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  max-width: 650px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 1.4em;
+}
+#score-display {
+  font-size: 1.1em;
+  color: #3498db;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.question-text {
+  font-size: 1.2em;
+  margin: 20px 0;
+  font-weight: bold;
+  color: #2c3e50;
+  line-height: 1.4;
+}
+.options {
+  margin: 20px 0;
+}
+.option-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: left;
+  padding-left: 15px;
+  transition: all 0.2s;
+  font-size: 1em;
+}
+.option-btn:hover:not(:disabled) {
+  background: #eef2f7;
+  border-color: #3498db;
+}
+.option-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+.feedback {
+  margin-top: 15px;
+  font-weight: bold;
+  min-height: 26px;
+  font-size: 1.1em;
+}
+.correct { 
+  color: #27ae60; 
+}
+.incorrect { 
+  color: #e74c3c; 
+}
+#final-screen {
+  display: none;
+}
+#final-score {
+  font-size: 1.4em;
+  margin: 20px 0;
+  color: #2c3e50;
+}
+#message {
+  margin: 15px 0;
+  font-style: italic;
+}
+#restart-btn {
+  background: #2ecc71;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1em;
+  margin-top: 15px;
+}
+#restart-btn:hover {
+  background: #27ae60;
+}
+
+/* Mute Button */
+.mute-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9em;
+  cursor: pointer;
+  z-index: 10;
+}
+.mute-btn:hover {
+  background: #2980b9;
+}
